@@ -13,7 +13,9 @@ class CreateUserController {
 
       return response.status(201).json(newUser);
     } catch (error) {
-      return response.status(400).json({ error: "Bad Request" });
+      return response
+        .status(400)
+        .json({ error: "This email is already in use." });
     }
   }
 }

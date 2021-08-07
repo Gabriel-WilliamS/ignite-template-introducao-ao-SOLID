@@ -92,7 +92,7 @@
       },
       "get": {
         "tags": ["Users"],
-        "summary": "Retorna todos os usuários",
+        "summary": "Retorna todos os usuários.",
         "description": "Somente usuário **admin** pode acessar.",
         "parameters": [
           {
